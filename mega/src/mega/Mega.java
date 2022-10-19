@@ -14,7 +14,7 @@ public class Mega {
         int size = mega.size();
 
         for(i = 0; i <= mega.size(); i++){
-            while (i != i + 1){
+            while (){
                 mega.add(i, numeroSorteado);
                 i++;
             }

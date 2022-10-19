@@ -7,13 +7,17 @@ public class Mega {
     public static void main(String[] args) {
 
         double ale = Math.random();
-        Integer numeroSorteado =  Integer.valueOf((int) (1 + ale * (60 - 1)));
+        Integer numeroSorteado = (int) (1 + ale * (60 - 1));
         int i;
 
         List<Integer> mega = new ArrayList<>();
-        for(i = 0; i <= 5; i++){
-            mega.get(i).add(numeroSorteado);
-            i++;
+        int size = mega.size();
+
+        for(i = 0; i <= mega.size(); i++){
+            while (i != i + 1){
+                mega.add(i, numeroSorteado);
+                i++;
+            }
         }
 
         System.out.println(mega);

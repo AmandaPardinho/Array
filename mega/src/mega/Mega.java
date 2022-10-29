@@ -9,17 +9,17 @@ public class Mega {
 
         double ale = Math.random();
         Integer numeroSorteado = (int) (1 + ale * (60 - 1));
+        System.out.println(numeroSorteado);
         int i;
 
-        List<Integer> mega = new ArrayList<>();
+        double[] mega = new double[5];
         //int size = mega.size();
 
 
-        for(i = 0; i >= 0 && i <= 5; i++){
-            mega.add(i, numeroSorteado);
+        for(i = 0; i <= mega.length; i++){
+            mega[i] = numeroSorteado;
             i++;
             System.out.println(mega);
         }
-
     }
 }

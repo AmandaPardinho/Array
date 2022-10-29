@@ -1,6 +1,7 @@
 package mega;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Mega {
@@ -11,16 +12,14 @@ public class Mega {
         int i;
 
         List<Integer> mega = new ArrayList<>();
-        int size = mega.size();
+        //int size = mega.size();
 
-        for(i = 0; i <= mega.size(); i++){
-            while (){
-                mega.add(i, numeroSorteado);
-                i++;
-            }
+
+        for(i = 0; i >= 0 && i <= 5; i++){
+            mega.add(i, numeroSorteado);
+            i++;
+            System.out.println(mega);
         }
-
-        System.out.println(mega);
 
     }
 }

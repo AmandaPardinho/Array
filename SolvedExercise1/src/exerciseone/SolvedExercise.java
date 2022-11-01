@@ -23,7 +23,9 @@ public class SolvedExercise {
             double contaCorrente;
             contaCorrente = i * 100.0;
             contas [i] = contaCorrente;
-            
+
+            System.out.println(contaCorrente);
+
         }
 
     }

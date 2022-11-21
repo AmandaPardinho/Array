@@ -31,5 +31,7 @@ public class Mega {
             }
             System.out.println(mega[i]);
         }
+
+        scanner.close();
     }
 }

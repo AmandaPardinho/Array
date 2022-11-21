@@ -1,27 +1,34 @@
 package mega;
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class Mega {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        float ale = (float) Math.random();
-        float numeroSorteado;
-        numeroSorteado = 1 + (ale * (60 - 1));
+        Random random = new Random();
 
+        boolean isEqual = false;
         int i;
+        int j;
+        int[] mega = new int[6];
+        int numberRandom;
 
-        Integer[] mega = new Integer[5];
-        float [] sorteio = new float[60];
 
-
-        for(i = 0; i <= 5; i++){
-            for(j = 1; j <= 60; j++){
-
+        for(i = 0; i < 6; i++){
+            numberRandom = random.nextInt(60);
+            for(j = 0; j < 6; j++){
+                if(mega[j] == numberRandom){
+                    j = 6;
+                    isEqual = true;
+                }
             }
-            mega[i] = Float.(numeroSorteado);
-            i++;
+            if(!isEqual){
+                mega[i] = numberRandom;
+            }else{
+                isEqual = false;
+                i--;
+            }
             System.out.println(mega[i]);
         }
     }

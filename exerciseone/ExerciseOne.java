@@ -17,12 +17,16 @@ public class ExerciseOne {
 
         boolean isEqual = false;
         int number;
-        int values[] = new int[10];
-        number = random.nextInt(21);
+        int[] values = new int[10];
+        int[] draw = new int[22];
 
 
-        for(int i = 0; i < 10; i++){
-            values[i] = number;
+        for(int i = 0; i < values.length; i++) {
+            int j;
+            for (j = 1; j < 10; j++) {
+                draw[j] = random.nextInt(22);
+            }
+            values[i] = draw[j];
             System.out.println(values[i]);
         }
 

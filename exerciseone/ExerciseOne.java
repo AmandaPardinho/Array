@@ -1,5 +1,8 @@
 package exerciseone;
 
+import java.util.Scanner;
+import java.util.Random;
+
 public class ExerciseOne {
 
     public static void main(String[] args) {
@@ -9,19 +12,20 @@ public class ExerciseOne {
 
         int valores[] = {4, 21, 9, 8, 12, 21, 4, 4, 1, 10};
          */
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
+        boolean isEqual = false;
         int number;
-        int values[];
+        int values[] = new int[10];
+        number = random.nextInt(21);
 
-        while(number < 22 && number > 0){
-
-        }
-        values.add(number);
-                //= {4, 21, 9, 8, 12, 21, 4, 4, 1, 10};
 
         for(int i = 0; i < 10; i++){
-            if(int values [i] == int values [i + 1]){
-
-            }
+            values[i] = number;
+            System.out.println(values[i]);
         }
+
+        scanner.close();
     }
 }

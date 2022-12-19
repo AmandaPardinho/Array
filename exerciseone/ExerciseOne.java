@@ -13,5 +13,11 @@ public class ExerciseOne {
          */
         Random random = new Random();
 
+        int vector[] = new int[10];
+
+        for(int i = 0; i < vector.length; i++){
+            vector[i] = random.nextInt(100);
+        }
+
     }
 }

@@ -9,7 +9,6 @@ public class Mega {
 
         for(int i = 0; i < number.length; i++){
             number[i] = random.nextInt(60);
-
             System.out.println(number[i]);
         }
     }

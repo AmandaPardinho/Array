@@ -2,6 +2,7 @@ package mega;
 
 import java.util.Arrays;
 import java.util.Random;
+
 public class Mega {
     public static void main(String[] args) {
         Random random = new Random();

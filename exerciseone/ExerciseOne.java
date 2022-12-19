@@ -1,7 +1,5 @@
 package exerciseone;
 
-import java.util.ArrayList;
-import java.util.Scanner;
 import java.util.Random;
 
 public class ExerciseOne {
@@ -13,32 +11,7 @@ public class ExerciseOne {
 
         int valores[] = {4, 21, 9, 8, 12, 21, 4, 4, 1, 10};
          */
-        Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        boolean isEqual = false;
-        int number;
-
-        ArrayList<Integer> list = new ArrayList<Integer>();
-
-        for(int i = 0; i < 11, i++){
-
-        }
-
-
-//        int[] values = new int[10];
-//        int[] draw = new int[22];
-//
-//
-//        for(int i = 0; i < values.length; i++) {
-//            int j;
-//            for (j = 1; j < 10; j++) {
-//                draw[j] = random.nextInt(22);
-//            }
-//            values[i] = draw[j];
-//            System.out.println(values[i]);
-//        }
-//
-//        scanner.close();
     }
 }

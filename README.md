@@ -1,6 +1,6 @@
 # **Array**
 
->Because I need to practice
+>During my studies I discovered that I have difficulty with arrays and lists. This repository was created to store exercises on these subjects done using, at first, the Java language.
 
 ---
 <a href="https://git-scm.com/" target="_blank"> 

@@ -1,5 +1,6 @@
-# Array
-Because I need to practice
+# **Array**
+
+>Because I need to practice
 
 ---
 <a href="https://git-scm.com/" target="_blank"> 
